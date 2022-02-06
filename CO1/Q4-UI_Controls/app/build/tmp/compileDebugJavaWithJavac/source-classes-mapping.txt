@@ -1,0 +1,4 @@
+com/example/validation_ui/BuildConfig.java
+ com.example.validation_ui.BuildConfig
+com/example/validation_ui/MainActivity.java
+ com.example.validation_ui.MainActivity
