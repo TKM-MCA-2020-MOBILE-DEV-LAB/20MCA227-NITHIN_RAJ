@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpinnerEvent</string>
+    <string-array name="fruits_array">
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Mango</item>
+        <item>Strawberry</item>
+        <item>Grape</item>
+    </string-array>
+</resources>
