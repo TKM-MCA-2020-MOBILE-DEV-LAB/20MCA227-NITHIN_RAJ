@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Spinner spinner = findViewById(R.id.spinner); //Creating a spinner
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.fruits_array, android.R.layout.simple_spinner_item); //Array Adapter maps an array of objects
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.fruits_array, android.R.layout.simple_spinner_item); //Array Adapter maps an array of objects, fruits_array is in strings.xml
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); //Dropdown design
         spinner.setAdapter(adapter); //Setting adapter to the spinner
         spinner.setOnItemSelectedListener(this); //Listener
