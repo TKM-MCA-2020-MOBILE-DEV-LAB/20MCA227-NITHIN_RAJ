@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.validation_ui"
+    package="com.example.ui_controls"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,9 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Validation_UI" >
+        android:theme="@style/Theme.UI_Controls" >
         <activity
-            android:name="com.example.validation_ui.MainActivity"
+            android:name="com.example.ui_controls.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.validation_ui.androidx-startup"
+            android:authorities="com.example.ui_controls.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

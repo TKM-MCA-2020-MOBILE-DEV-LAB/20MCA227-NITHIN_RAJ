@@ -1,4 +1,4 @@
-com.example.validation_ui
+com.example.ui_controls
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -2577,7 +2577,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addr
+id address
 id alertTitle
 id aligned
 id all
@@ -2605,7 +2605,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2682,6 +2681,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id email
 id end
 id endToStart
 id enterAlways
@@ -2747,7 +2747,6 @@ id line3
 id linear
 id listMode
 id list_item
-id mail
 id male
 id masked
 id match_constraint
@@ -2836,13 +2835,13 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id pass
+id password
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
-id phone
+id phno
 id pin
 id position
 id postLayout
@@ -2945,11 +2944,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
-id textView3
-id textView4
-id textView5
-id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2980,6 +2974,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id validate
+id validate1
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3880,7 +3876,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_Validation_UI
+style Theme_UI_Controls
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
